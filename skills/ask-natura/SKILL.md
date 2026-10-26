@@ -17,7 +17,7 @@ Ask before starting an unrelated topic in an existing conversation.
 
 Natura saves these questions and answers in the user's account, may use their
 existing saved health context, and applies their current question allowance.
-Do not imply that connector access includes a free or unlimited subscription.
+Every tool requires an active paid Natura subscription. Free trials, complimentary grants, and expired subscriptions do not qualify. A subscription_required response is a payment restriction, not a missing history permission. Explain it without trying to bypass it or offering checkout inside the host. Do not imply free or unlimited access.
 When a tool reports a plan limit or temporary failure, explain that result;
 never invent a Natura answer or silently retry a new billable question.
 

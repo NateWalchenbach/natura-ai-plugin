@@ -1,8 +1,8 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "natura-ai",
-  "version": "1.0.0",
-  "description": "Give your AI a natural-health upgrade with Natura’s knowledge base, source-aware answers, safety checks, and your saved health context.",
+  "version": "1.0.1",
+  "description": "Give your AI a natural-health upgrade with Natura’s knowledge base, source-aware answers, safety checks, and your saved health context. Requires an active paid Natura subscription.",
   "author": {
     "name": "Natura AI",
     "url": "https://mynatura.ai",
@@ -19,7 +19,7 @@
       "interface": {
         "displayName": "Natura AI",
         "shortDescription": "Natural-health knowledge. Your health context.",
-        "longDescription": "Bring Natura’s natural-health knowledge and your saved health context into the AI chat you already use. Explore supplement research, understand ingredient lists, and build routines around your goals. Natura uses its knowledge base and safety checks, with source links and evidence limitations. Continue with follow-up questions; with optional history access, pick up an existing Natura conversation. Sign in with your Natura email code. Your Natura question allowance applies.",
+        "longDescription": "Bring Natura’s natural-health knowledge and your saved health context into the AI chat you already use. Explore supplement research, understand ingredient lists, and build routines around your goals. Natura uses its knowledge base and safety checks, with source links and evidence limitations. Continue with follow-up questions; with optional history access, pick up an existing Natura conversation. Sign in with your Natura email code. Requires an active paid Natura subscription. Free trials and complimentary access do not include the connection. Your question allowance applies.",
         "developerName": "Natura AI",
         "websiteURL": "https://mynatura.ai",
         "privacyPolicyURL": "https://mynatura.ai/privacy",
@@ -85,14 +85,20 @@
               "prompt": "Use Natura to scan this barcode and analyze my uploaded lab PDF.",
               "tools_triggered": "None",
               "expected_behavior": "Explains that this connector supports text questions and directs the user to supported Natura app features without pretending to scan or analyze an upload."
+            },
+            {
+              "description": "Account without paid access",
+              "prompt": "Use Natura even though my subscription is on a free trial or has expired.",
+              "tools_triggered": "ask_natura",
+              "expected_behavior": "Requires sign-in and a verified active paid Natura subscription. Returns subscription_required without health data; all history and retry paths are blocked too. No checkout, credentials, or free-access workaround in chat."
             }
           ]
         },
         "commerce": false,
-        "commerce_description": "No purchases, checkout, or subscription upgrades are offered by the connector. Existing Natura account entitlements and question allowances apply."
+        "commerce_description": "Requires an existing active paid Natura subscription. Free trials and complimentary access do not qualify. No purchases, checkout, or subscription upgrades are offered by the connector. Existing question allowances apply."
       },
       "publication": {
-        "release_notes": "Initial text-based Natura connector with OAuth consent, optional conversation history, source-aware answers, safety guidance, and user-controlled disconnect."
+        "release_notes": "Requires a verified active paid Natura subscription before linking and on every tool call. Adds stricter release-package credential checks. Preserves OAuth consent, safety guidance, and optional history permissions."
       }
     }
   },

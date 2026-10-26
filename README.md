@@ -73,3 +73,9 @@ Natura's private backend, knowledge base, user data, or credentials.
 
 Published by Natura AI. ChatGPT and Claude are products of their respective
 owners; this plugin does not imply their endorsement.
+
+## Account and payment requirements
+
+A Natura account with an active paid subscription is required for all tools, including conversation history and retries. Free trials, complimentary grants, sandbox purchases, and expired subscriptions do not qualify. Canceling renewal keeps access until the paid period ends. Natura verifies billing on the server on every use and denies access when payment cannot be verified. Existing question limits still apply.
+
+You sign in only on Natura using your email and six-digit code. Never paste a code, access token, or API key into chat. The package contains no credentials; each host receives a scoped, revocable OAuth token for the connected account, never Natura’s server keys or Supabase session.
