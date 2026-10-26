@@ -1,0 +1,19 @@
+{
+  "name": "natura-ai",
+  "version": "1.0.0",
+  "description": "Give your AI a natural-health upgrade: Natura’s knowledge base, source-aware answers, safety checks, and your saved health context, right in your chat.",
+  "author": {
+    "name": "Natura AI",
+    "url": "https://mynatura.ai",
+    "email": "support@mynatura.ai"
+  },
+  "homepage": "https://mynatura.ai",
+  "keywords": [
+    "natural-health",
+    "wellness",
+    "natura"
+  ],
+  "mcpServers": "./.mcp.json",
+  "repository": "https://github.com/NateWalchenbach/natura-ai-plugin",
+  "license": "MIT"
+}
