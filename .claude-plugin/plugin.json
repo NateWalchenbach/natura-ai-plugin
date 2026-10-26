@@ -15,5 +15,10 @@
   ],
   "mcpServers": "./.mcp.json",
   "repository": "https://github.com/NateWalchenbach/natura-ai-plugin",
-  "license": "MIT"
+  "license": "MIT",
+  "displayName": "Natura AI",
+  "privacyPolicyUrl": "https://mynatura.ai/privacy",
+  "supportUrl": "https://mynatura.ai/help",
+  "documentationUrl": "https://github.com/NateWalchenbach/natura-ai-plugin#readme",
+  "termsOfServiceUrl": "https://mynatura.ai/terms"
 }
