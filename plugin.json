@@ -1,10 +1,10 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "natura-ai",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Give your AI a natural-health upgrade with Natura’s knowledge base, source-aware answers, safety checks, and your saved health context. Requires an active paid Natura subscription.",
   "author": {
-    "name": "Natura AI",
+    "name": "Natura AI LLC",
     "url": "https://mynatura.ai",
     "email": "support@mynatura.ai"
   },
@@ -20,7 +20,7 @@
         "displayName": "Natura AI",
         "shortDescription": "Natural health. Your context.",
         "longDescription": "Bring Natura’s natural-health knowledge and your saved health context into the AI chat you already use. Explore supplement research, understand ingredient lists, and build routines around your goals. Natura uses its knowledge base and safety checks, with source links and evidence limitations. Continue with follow-up questions; with optional history access, pick up an existing Natura conversation. Sign in with your Natura email code. Requires an active paid Natura subscription. Free trials and complimentary access do not include the connection. Your question allowance applies.",
-        "developerName": "Natura AI",
+        "developerName": "Natura AI LLC",
         "websiteURL": "https://mynatura.ai",
         "privacyPolicyURL": "https://mynatura.ai/privacy",
         "termsOfServiceURL": "https://mynatura.ai/terms",
@@ -92,7 +92,7 @@
         "commerce_description": "Requires an existing active paid Natura subscription. Free trials and complimentary access do not qualify. No purchases, checkout, or subscription upgrades are offered by the connector. Existing question allowances apply."
       },
       "publication": {
-        "release_notes": "Adds explicit, expiring access for designated synthetic directory-review accounts. Customers still require a verified paid Natura subscription; email-code sign-in, OAuth consent, history permissions, and safety checks are preserved."
+        "release_notes": "Uses Natura AI LLC as the publisher and author. Retains paid customer access, six-digit email sign-in, and expiring complimentary access for the dedicated synthetic review account."
       }
     }
   },

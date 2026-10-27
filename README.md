@@ -71,7 +71,7 @@ Natura's private backend, knowledge base, user data, or credentials.
 - Support: support@mynatura.ai
 - Privacy: privacy@mynatura.ai
 
-Published by Natura AI. ChatGPT and Claude are products of their respective
+Published by Natura AI LLC. ChatGPT and Claude are products of their respective
 owners; this plugin does not imply their endorsement.
 
 ## Account and payment requirements

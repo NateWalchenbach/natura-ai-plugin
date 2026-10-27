@@ -1,9 +1,9 @@
 {
   "name": "natura-ai",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Give your AI a natural-health upgrade: Natura’s knowledge base, source-aware answers, safety checks, and your saved health context, right in your chat. Requires an active paid Natura subscription.",
   "author": {
-    "name": "Natura AI",
+    "name": "Natura AI LLC",
     "url": "https://mynatura.ai",
     "email": "support@mynatura.ai"
   },
