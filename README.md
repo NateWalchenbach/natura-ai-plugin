@@ -1,8 +1,12 @@
 # Natura AI
 
-Give your AI a natural health upgrade. Connect Natura to your AI chat for
-natural-health questions grounded in Natura's knowledge base, with source-aware
-answers, evidence limitations, safety checks, and your saved Natura health context.
+Natural-health knowledge. Personalized for you.
+
+Bring Natura's natural-health knowledge and your saved health context into
+ChatGPT and Claude. Explore the evidence for supplements, ingredients, nutrition,
+and daily routines. Get answers informed by the goals, preferences, and health
+details you've saved in Natura, with available sources, uncertainty, and safety
+information alongside the guidance.
 
 This integration is being prepared for directory review. Installing this package
 does not by itself activate a Natura account or guarantee directory availability.
@@ -18,17 +22,33 @@ does not by itself activate a Natura account or guarantee directory availability
 
 ## Connect your account
 
-1. Install Natura through your host's supported plugin flow, or add the remote
+1. Set up your Natura account and review the goals, preferences, and health
+   details you want Natura to consider. Customer access requires an active paid
+   Natura subscription.
+2. Install Natura through your host's supported plugin flow, or add the remote
    connector at `https://api.mynatura.ai/mcp` where custom connectors are supported.
-2. Use the host's Connect or Authorize action. Sign in on Natura with your email
+3. Use the host's Connect or Authorize action. Sign in on Natura with your email
    address and six-digit email code. Never put your code or credentials in chat.
-3. Read the consent screen. Chat permission lets Natura use saved context and
+4. Read the consent screen. Chat permission lets Natura use saved context and
    save new questions and answers. Sharing existing chat history is optional.
-4. Ask a question and review the returned sources and safety information.
+5. Start a question with “Use Natura…” and review the returned sources and safety
+   information. Ask follow-up questions in the same chat.
 
 Natura hosts the service. No Mac, local server, command-line setup, or API key is
 required for the remote connection. Host plan and workspace permissions can affect
 connector availability. Your existing Natura allowance applies.
+
+## How personalization works
+
+ChatGPT or Claude sends your question to Natura. Natura consults its knowledge
+base and relevant context saved in your account, then returns an answer, available
+sources, and safety information to the chat. Health evidence can be incomplete or
+conflicting; review the sources and uncertainty rather than treating an answer as
+guaranteed truth.
+
+Saved context personalizes Natura's answers. Connecting does not retrain ChatGPT
+or Claude. Information you share with your host is also subject to its own data
+settings and policies.
 
 ## Tools and limits
 
@@ -40,7 +60,6 @@ connector availability. Your existing Natura allowance applies.
 
 This version supports text questions. Photo, voice, lab-upload, barcode-scan,
 family-management, and purchase flows remain in the Natura application.
-Connecting adds access to Natura's service; it does not retrain the host model.
 Natura provides general wellness information, not diagnosis or treatment, and
 does not replace a qualified clinician or emergency care.
 

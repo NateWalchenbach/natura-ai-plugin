@@ -1,8 +1,8 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "natura-ai",
-  "version": "1.0.4",
-  "description": "Give your AI a natural-health upgrade with Natura’s knowledge base, source-aware answers, safety checks, and your saved health context. Requires an active paid Natura subscription.",
+  "version": "1.0.5",
+  "description": "Bring Natura’s natural-health knowledge and your saved health context into your AI chat. Explore evidence, sources, uncertainty, and safety information in answers personalized by Natura. Requires an active paid Natura subscription.",
   "author": {
     "name": "Natura AI LLC",
     "url": "https://mynatura.ai",
@@ -18,8 +18,8 @@
     "com.openai": {
       "interface": {
         "displayName": "Natura AI",
-        "shortDescription": "Natural health. Your context.",
-        "longDescription": "Bring Natura’s natural-health knowledge and your saved health context into the AI chat you already use. Explore supplement research, understand ingredient lists, and build routines around your goals. Natura uses its knowledge base and safety checks, with source links and evidence limitations. Continue with follow-up questions; with optional history access, pick up an existing Natura conversation. Sign in with your Natura email code. Requires an active paid Natura subscription. Free trials and complimentary access do not include the connection. Your question allowance applies.",
+        "shortDescription": "Natural health. Made personal.",
+        "longDescription": "Bring Natura’s natural-health knowledge and your saved health context into your AI chat. Explore the evidence for supplements, ingredients, nutrition, and daily routines, with answers informed by your saved goals, preferences, and health details. Natura returns available sources, uncertainty, and safety information alongside its answers. Ask follow-up questions; with optional history access, continue an existing Natura conversation. Saved context personalizes Natura’s answers; connecting does not retrain your assistant. Sign in with your Natura email and six-digit code. Requires an active paid Natura subscription. Free trials and complimentary customer access do not include the connection. Your question allowance applies.",
         "developerName": "Natura AI LLC",
         "websiteURL": "https://mynatura.ai",
         "privacyPolicyURL": "https://mynatura.ai/privacy",
@@ -92,7 +92,7 @@
         "commerce_description": "Requires an existing active paid Natura subscription. Free trials and complimentary access do not qualify. No purchases, checkout, or subscription upgrades are offered by the connector. Existing question allowances apply."
       },
       "publication": {
-        "release_notes": "Uses Natura AI LLC as the publisher and author. Retains paid customer access, six-digit email sign-in, and expiring complimentary access for the dedicated synthetic review account."
+        "release_notes": "Clarifies Natura’s value: natural-health knowledge and saved health context in ChatGPT and Claude. Explains evidence limitations and personalization without claiming host-model training. Publisher remains Natura AI LLC; customer payment and consent requirements are unchanged."
       }
     }
   },
