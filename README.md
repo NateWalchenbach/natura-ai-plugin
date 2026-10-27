@@ -29,7 +29,7 @@ does not by itself activate a Natura account or guarantee directory availability
    connector at `https://api.mynatura.ai/mcp` where custom connectors are supported.
 3. Use the host's Connect or Authorize action. Sign in on Natura with your email
    address and six-digit email code. Never put your code or credentials in chat.
-4. Read the consent screen. Chat permission lets Natura use saved context and
+4. In ChatGPT, confirm you are at least 13 (with parent or guardian consent and supervision if under 18). Read the consent screen. Chat permission lets Natura use saved context and
    save new questions and answers. Sharing existing chat history is optional.
 5. Start a question with “Use Natura…” and review the returned sources and safety
    information. Ask follow-up questions in the same chat.
@@ -62,6 +62,10 @@ This version supports text questions. Photo, voice, lab-upload, barcode-scan,
 family-management, and purchase flows remain in the Natura application.
 Natura provides general wellness information, not diagnosis or treatment, and
 does not replace a qualified clinician or emergency care.
+
+### ChatGPT 13+ scope
+
+ChatGPT uses eligible owner context and text history. Structured family profiles, family conversations, labs, and image conversations are excluded. Personal information about children under 13 must not be shared through this connection. Free-text owner context, history, and outgoing answers receive an additional automated privacy check; unavailable or uncertain checks withhold data. These checks reduce risk and can make mistakes. Existing ChatGPT connections must reconnect to confirm the updated scope.
 
 ## Privacy and disconnecting
 
